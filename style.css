@@ -1,0 +1,41 @@
+.header {
+    max-width: 1440px;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 840px;
+    background-color: #f3eae3;
+}
+
+.product-card {
+    width: 600px;
+    height: 450px;
+    background-color: white;   
+    border-radius: 10px;
+}
+
+.attribution {
+    max-width: 1440px;
+    margin: auto;
+    text-align: right;
+    font-family: 'Fraunces', serif;
+    background-color: #f3eae3;
+}
+
+.copyright {
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
