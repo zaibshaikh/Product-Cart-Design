@@ -79,6 +79,7 @@
 
 .price-text {
   font-size: 30px;
+  column-gap: 1.15rem;
   font-weight: 700;
   color: var(--Dark-cyan);
   font-family: "Fraunces", serif;
@@ -136,3 +137,47 @@
   text-transform: uppercase;
   font-size: 10pt;
 }
+
+@media only screen and (max-device-width: 375px) {
+  .container {
+    width: 345px;
+  }
+
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    height: 612px;
+  }
+
+  .image-holder {
+    width: 345px;
+    height: 245px;
+    overflow: hidden;
+    background-position: center;
+    background-image: url(./images/image-product-mobile.jpg);
+  }
+
+  .attribution {
+    text-align: center;
+  }
+
+  .text-holders {
+    padding: 25px;
+    row-gap: 1rem;
+  }
+
+  .paragraph-holder {
+  font-size: 14px;
+  }
+
+  .button-cart {
+  width: 295px;
+  }
+
+  .header-text {
+  font-size: 30px;
+  }
+
+  .text-head {
+  font-size: 10px;
+  }
