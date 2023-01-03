@@ -78,10 +78,20 @@
 }
 
 .price-text {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   color: var(--Dark-cyan);
   font-family: "Fraunces", serif;
+  display: flex;
+}
+
+.old-price {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--Dark-grayish-blue);
+  font-family: "Montserrat", serif;
+  text-decoration: line-through;
 }
 
 .button-cart {
